@@ -1,0 +1,12 @@
+@mixin default-button {
+    margin: 1rem;
+    border: 1px solid $main-color;
+    border-radius: 0.125rem;
+    &:hover {
+        background-color: $extra-color;
+    }
+
+    &:active {
+        background-color: $second-color;
+    }
+}

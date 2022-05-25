@@ -13,7 +13,7 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
   },
-  "name": "proyecto1",
+  "name": "atico_p1konrad",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

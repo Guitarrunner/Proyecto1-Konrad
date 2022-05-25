@@ -1,0 +1,8 @@
+@mixin default-card{
+    margin: 1rem;
+    border: 1px solid $main-color;
+    border-radius: 2rem;
+    min-width: $minw;
+    width: calc(100% - 2px - 2rem);
+    overflow: hidden;
+}
