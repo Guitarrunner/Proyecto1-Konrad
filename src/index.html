@@ -2,45 +2,101 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>Ático Podcast</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo_wine.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
       content="This is a landing page for a podcast that talks about
-  original music made by costaricans"
-    />
+  original music made by costaricans"/>
+  
   </head>
   <body>
-    <header class="nav_root">
+    <header class="nav__root">
       <div class="nav__imgcontainer">
-        <img class="nav__imgcontainer__logo" />
+        <img class="nav__imgcontainer__logo" src="assets/logo_yellow.jpg" alt="Logo" />
       </div>
+
       <div class="nav__btncontainer">
-        <ul class="nav__btncontainer__btnlist cleanlist:row">
-          <li class="cleanlist__element">
-            <button class="cleanlist__element__btn"></button>
-          </li>
-          <li class="cleanlist__element">
-            <button class="cleanlist__element__btn"></button>
-          </li>
-          <li class="cleanlist__element">
-            <button class="cleanlist__element__btn"></button>
-          </li>
-          <li class="cleanlist__element">
-            <button class="cleanlist__element__btn"></button>
-          </li>
-        </ul>
+            <button class="nav__btncontainer__btn">Episodes</button>
+        
+            <button class="nav__btncontainer__btn">Social</button>
+         
+            <button class="nav__btncontainer__btn">Products</button>
+       
+            <button class="nav__btncontainer__btn">Contact</button>
+         
+      </div>
+      <div class="nav__hamburger">
+        <button class="nav__hamburger__icon"></button>
       </div>
     </header>
 
     <main class="main__root">
-      <div class="main__hero"></div>
-      <section class="main__episodes"></section>
+      <div class="main__hero__root">
+          <div class="main__hero__card--xl">
+            <div class="main__hero__card__imgcontainer">
+              <img class="main__hero__card__img" src="assets/cieloacutal.jpg" alt="Cielo actual" />
+            </div>
+            
+            <h2 class="main__hero__card__title"> Let's build the hotel together!</h2>
+          </div>
+          <div class="main__hero__card__container">
+            <div class="main__hero__card--md--center">
+              <h1 class="main__hero__card__h1">Aquí estamos</h1>
+              <p class="main__hero__card__subtitle--colored">Your local podcast for local artist</p>
+            </div>
+            <div class="main__hero__card--md--center">
+              <p class="main__hero__card__subtitle">Our total follow account</p>
+              <p class="main__hero__card__bigsub">500</p>
+              <div class="main__hero__go-to__root">
+              <p class="main__hero__go-to__subtitle"> You can see all chapters <span><a class="main__hero__go-to__span" target="_blank" href="https://linktr.ee/aticopodcast">here</a></span></p>
+              <button class="main__hero__go-to__btn">&#8594;</button>
+            </div>
+            </div>
+          </div>
+      </div>
+      <section class="main__episodes">
+        <div id="ep1" class="episodes__root">
+          <div class="episodes__card--xl"></div>
+          <div class="episodes__card__container">
+            <div class="episodes__card--md">
+
+            </div>
+            <div class="episodes__card--s">
+
+            </div>
+          </div>
+          <div id="ep2" class="episodes__root">
+            <div class="episodes__card--xl"></div>
+            <div class="episodes__card__container">
+              <div class="episodes__card--md">
+  
+              </div>
+              <div class="episodes__card--s">
+  
+              </div>
+            </div>
+            <div id="ep3" class="episodes__root">
+              <div class="episodes__card--xl"></div>
+              <div class="episodes__card__container">
+                <div class="episodes__card--md">
+    
+                </div>
+                <div class="episodes__card--s">
+    
+                </div>
+              </div>
+      </div>
+      </section>
       <section class="main__social"></section>
       <section class="main__products"></section>
-      <div class="main__prefooter"></div>
+      <section class="main__contacts"></section>
+      
     </main>
 
-    <footer clasas="footer__root"></footer>
+    <footer class="footer__root">
+    </footer>
   </body>
 </html>

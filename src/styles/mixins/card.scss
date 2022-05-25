@@ -1,6 +1,9 @@
 @mixin default-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 1rem;
-    border: 1px solid $main-color;
+    border: 1rem solid $color-white;
     border-radius: 2rem;
     min-width: $minw;
     width: calc(100% - 2px - 2rem);

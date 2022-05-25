@@ -1,0 +1,71 @@
+.nav {
+    &__root {
+        top: 0;
+        width: 100vw;
+        min-width: $minw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: $headerh;
+        background-color: $main-color;
+        z-index: 2;
+        position: fixed;
+    }
+
+    &__imgcontainer {
+        @include flexcenter;
+        &__logo {
+            height: 80%;
+            width: 80%;
+            margin: 1rem;
+        }
+    }
+
+    &__btncontainer {
+        display: none;
+        width: 65%;
+        align-items: center;
+        margin-right: 1rem;
+
+       &__btn {
+                @include default-button;
+                width: calc(33.33% - 2rem - 4px);
+                height: 30%;
+                line-height:30%;
+            }
+
+        @media (min-width: $tablet) {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    &__hamburger{
+        @include flexcenter;
+        margin-right: 1rem;
+
+        &__icon{
+            @include default-button;
+            width: 2rem;
+            height: 60%;
+            margin: 1rem;
+            background-image: url("../assets/hamburguer.png");
+            background-repeat: no-repeat;
+            background-size: cover;    
+            background-color: transparent;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            &:hover{
+                background-color: $border-color;
+            }
+            &:active {
+                background-color: $border-color;
+            }
+        }
+
+        @media (min-width: $tablet) {
+            display: none;
+        }
+    }
+
+}

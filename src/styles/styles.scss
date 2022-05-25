@@ -12,13 +12,12 @@
 @import "./mixins/card.scss";
 @import "./mixins/textCard.scss";
 @import "./mixins/anchor.scss";
+@import "./mixins/flexcenter.scss";
 
 /*Components*/
-@import "./components/episodes.scss";
-@import "./components/hero.scss";
+@import "./components/footer.scss";
 @import "./components/main.scss";
 @import "./components/nav.scss";
-@import "./components/prefooteer.scss";
-@import "./components/products.scss";
-@import "./components/social.scss";
+@import "./components/episodes.scss";
+
 

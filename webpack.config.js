@@ -11,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
 
-  devServer: { watchFiles: ["src/**/*.js", "src/**/*.html", "src/**/*.scss","src/**/*.png"] },
+  devServer: { watchFiles: ["src/**/*.js", "src/**/*.html", "src/**/*.scss","src/**/*.png","src/**/*.jpg","src/**/*.JPG"] },
   module: {
     rules: [
       //Saas loader
@@ -25,7 +25,7 @@ module.exports = {
         use: ['html-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/i,
+        test: /\.(png|jpe?g|jpg|JPG|gif|svg)$/i,
         type: 'asset/resource'
     }
 ],
