@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Ático Podcast</title>
     <link rel="icon" type="image/x-icon" href="assets/logo_wine.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta lang="en" />
     <meta
       name="description"
       content="This is a landing page for a podcast that talks about
@@ -32,7 +33,7 @@
         <button class="nav__btncontainer__btn">Contact</button>
       </div>
       <div class="nav__hamburger">
-        <button class="nav__hamburger__icon"></button>
+        <button class="nav__hamburger__icon">Hamburguer icon</button>
       </div>
     </header>
 
@@ -95,9 +96,13 @@
           <div class="episodes__card__container">
             <div class="episodes__card--md">
               <h3 class="episodes__card__episode">About this episode</h3>
-              <p class="episodes__card__about">We open the season with Nicky, an amazing and energetic person. 
-                She was a super person to start the season and she was able to tell us with lots of laughs about his musical career,
-                 as well as showing the light she has since she did not stop making us laugh during the episode.</p>
+              <p class="episodes__card__about">
+                We open the season with Nicky, an amazing and energetic person.
+                She was a super person to start the season and she was able to
+                tell us with lots of laughs about his musical career, as well as
+                showing the light she has since she did not stop making us laugh
+                during the episode.
+              </p>
             </div>
             <div class="episodes__card--s">
               <button class="episodes__card__btn">Go to Episode 1</button>
@@ -119,9 +124,12 @@
           <div class="episodes__card__container">
             <div class="episodes__card--md">
               <h3 class="episodes__card__episode">About this episode</h3>
-              <p class="episodes__card__about">Joining us today is Donovan, a person with great passion 
-                and tireless energy who tells us about his professional and musical experiences. He also 
-                tells us about his singles and upcoming projects.</p>
+              <p class="episodes__card__about">
+                Joining us today is Donovan, a person with great passion and
+                tireless energy who tells us about his professional and musical
+                experiences. He also tells us about his singles and upcoming
+                projects.
+              </p>
             </div>
             <div class="episodes__card--s">
               <button class="episodes__card__btn">Go to Episode 2</button>
@@ -143,9 +151,11 @@
           <div class="episodes__card__container">
             <div class="episodes__card--md">
               <h3 class="episodes__card__episode">About this episode</h3>
-              <p class="episodes__card__about">In this episode we will meet Jime, a girl who is starting her solo
-                 career and has a lot of potential and wants to break it. Join us to listen to his story and
-                  discover his great talent.</p>
+              <p class="episodes__card__about">
+                In this episode we will meet Jime, a girl who is starting her
+                solo career and has a lot of potential and wants to break it.
+                Join us to listen to his story and discover his great talent.
+              </p>
             </div>
             <div class="episodes__card--s">
               <button class="episodes__card__btn">Go to Episode 3</button>
@@ -153,11 +163,86 @@
           </div>
         </div>
       </section>
-      <section class="main__social"></section>
-      <section class="main__products"></section>
-      <section class="main__contacts"></section>
+      <section class="main__social__root">
+        <h2 class="main__social__title">Follow us</h2>
+        <div class="main__social__youtube">
+          <iframe
+            class="main__social__youtube__video"
+            src="https://www.youtube.com/embed/JGKZ93H9LuE"
+            title="Youtube channel"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p class="main__social__youtube__caption">
+            Here you can check all our videos
+          </p>
+        </div>
+        <div class="main__social__container">
+          <div class="main__social__container__spotify">
+            <h3 class="main__social__container__spotify__title">
+              You can hear us on Spotify
+            </h3>
+            <iframe
+            title="Spotify link"
+              class="main__social__container__spotify__frame"
+              src="https://open.spotify.com/embed/show/6J9XEbot2wzfNgu2Cl2CVJ?utm_source=generator"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
+          </div>
+          <div class="main__social__container__instagram">
+            <h3 class="main__social__container__instagram__title">Check our feed on Instagram</div>
+            <div class="main__social__container__imgcontainer">
+              <img
+                class="main__social__container__imgcontainer__img"
+                src="assets/instagram.jpeg"
+                alt="instagram feed"
+              />
+            </div>
+          </div>
+        </div>
+        <p class="main__social__subtitle">Check our weekly content</p>
+      </section>
+      <section class="main__products__root">
+        <h2 class="main__products__title">
+          See our concerts, more info in the contact section
+        </h2>
+        <iframe
+          class="main__products__video"
+          src="https://www.youtube.com/embed/dbmO_vN4aYQ"
+          title="Our first concert"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="main__contacts__root">
+        <h2 class="main__contacts__title">Contact us any time you need</h2>
+        <div class="main__contacts__container">
+          <button class="main__contacts__container__btn--email">Email</button>
+          <button class="main__contacts__container__btn--phone">Phone</button>
+          <button class="main__contacts__container__btn--instagram">Instagram</button>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer__root"></footer>
+    <footer class="footer__root">
+      <div class="footer__container">
+        <div class="footer__container__listepisodes">
+          <h3 class="footer__container__listepisodes__title">Episodes</h3>
+            <p class="footer__list__element">Episode 1</p>
+            <p class="footer__list__element">Episode 2</p>
+            <p class="footer__list__element">Episode 3</p>
+
+        </div>
+        <div class="footer__container__contact">
+          <a class="footer__container__contact__anchor" href="mailto:jdag98228@gmail.com" >Email us</a>
+          <a class="footer__container__contact__anchor" href="tel:+50686263988" >Call us</a>
+        </div>
+        <div class="footer__container__copyright">Josué Araya - Immersive - 1st project</div>
+      </div>
+    </footer>
   </body>
 </html>

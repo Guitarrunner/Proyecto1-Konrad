@@ -1,0 +1,23 @@
+@mixin icon-button{
+    @include default-button;
+    width: 3rem;
+    height: 3rem;
+    @media (min-width: $tablet) {
+        width: 8rem;
+        height: 8rem;
+    }
+    color: transparent;
+    border-radius: 2rem;
+    &:hover {
+        background-color: transparent;
+        color: transparent;
+        border: 1px solid $color-white;
+    }
+
+    &:active {
+        background-color: $main-color;
+        color: transparent;
+        border: 1px solid $color-white;
+        
+    }
+}
