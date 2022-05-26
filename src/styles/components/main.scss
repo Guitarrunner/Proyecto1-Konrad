@@ -1,6 +1,6 @@
 .main{
     &__root{
-        height: calc( 5 * $fullpage-header);
+        height: calc( 8 * $fullpage-header);
         background-image: url(../assets/background.jpg);
         background-size: 100% auto;
         background-repeat: initial;
@@ -76,12 +76,12 @@
                     height: 80%;
                     width: 100%;
                 }
-                
+                &__img{
+                    height: 100%;
+                }
             }
     
-            &__img{
-                height: 100%;
-            }
+           
     
             &__title{
                 text-align: center;
@@ -138,7 +138,21 @@
        
         
     }
+    &__episodes{
+        &__root{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
+        &__title{
+            color:$text-color;
+            text-align: center;
+            font-size: 3rem;
+        }
+        
+        
+    }
 
     &__social{
         
